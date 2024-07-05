@@ -1,27 +1,23 @@
-title:            Yi's website
+title:            Takku's DevFolio
 description:      Welcome to my site.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              https://yrf1.github.io
-disqus_shortname: yfung
+url:              
+disqus_shortname: takkujl
 
 # Owner/author information
 owner:
-  name:           Yi Ren Fung
+  name:           (Takku) Junjie Li 
   avatar:         yfung.png
-  bio:            I grew up from the Greater Boston area. Currently in Champaign, IL. Passionate about NLP, knowledge reasoning, tech in general, and content creation, while exploring the world.
+  bio:            I grew up from Quzhou, China. Currently in Bothell, WA. Passionate about deep learning in general, and content creation, while exploring the world.
   email:          yifung2@illinois.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter: YiFung10
-  linkedin: yifung1
-  google_scholar: eUae2K0AAAAJ
-  google_plus: 113718226018314522413
-  github: yrf1
-  #youtube: channel/UCux_LLKhP3_tSnGYfpGx6lg
+  linkedin: junjietakkuli
+  github: takkujunjieli
 # Analytics and webmaster tools stuff goes here
-google_analytics: UA-52736040-1
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
+# google_analytics: UA-52736040-1
+# google_verify:
+# # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+# bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -36,7 +32,7 @@ links:
     url: /service_and_awards/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Zurich
+timezone:    US/Pacific
 future:      true
 #pygments:    true
 highlighter: rouge
