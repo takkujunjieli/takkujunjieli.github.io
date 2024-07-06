@@ -7,9 +7,9 @@ disqus_shortname: takkujl
 # Owner/author information
 owner:
   name:           (Takku) Junjie Li 
-  avatar:         yfung.png
+  avatar:         avatar.svg
   bio:            I grew up from Quzhou, China. Currently in Bothell, WA. Passionate about deep learning in general, and content creation, while exploring the world.
-  email:          yifung2@illinois.edu
+  email:          alvinbluy@gmail.edu
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   linkedin: junjietakkuli
   github: takkujunjieli
@@ -58,4 +58,4 @@ kramdown:
     coderay_css: class
 
 include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+exclude: ["lib", "config.rb", "Capfile", "vendor", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
