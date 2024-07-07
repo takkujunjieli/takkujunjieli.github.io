@@ -1,8 +1,8 @@
 ---
 layout: personal
 permalink: /personal/
-title: Personal
-tagline: My Personal
+title: About Me
+tagline: 
 tags: [personal]
 comments: false
 ---
