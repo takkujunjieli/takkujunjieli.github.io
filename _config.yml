@@ -24,8 +24,9 @@ owner:
 links:
   - title: Projects
     url: /projects/
-  - title: Experiences
-    url: /experiences/
+  - title: CV
+    url: /CV.pdf
+    external: true
   - title: Blogs
     url: /blogs/
   - title: Personal
