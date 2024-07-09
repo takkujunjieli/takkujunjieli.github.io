@@ -1,16 +1,18 @@
 ---
 layout: home2
 title: Hi There, Welcome!
-description: "Yi Fung's website"
+description: "Takku's Homepage"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
 ---
 
-I am a <b> MSCS student</b> at <a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My research focus centers around <b>socially-situated human-centered trustworthy NLP/AI</b> with <b>multimedia knowledge reasoning</b> capability and <b>scalable alignment</b> principles. In particular, here's a handful selection of my recent research that dive into the fundamental model architectural mechanisms or frameworks empowering <b><i>harmless</i></b>, <b><i>helpful</i></b>, and <b><i>honest</i></b> information communication:
-* <b>Norms Discovery and Explainable Norms Violation Detection</b>: NormSAGE<sup><sub>[<a href="https://arxiv.org/abs/2210.08604" target="_blank">1</a>]</sub></sup>; LM debiasing and detoxification<sup><sub>[<a href="https://arxiv.org/abs/2305.12798" target="_blank">2</a>]</sub></sup><sup><sub>[<a href="https://ojs.aaai.org/index.php/AAAI/article/view/26279" target="_blank">3</a>]</sub></sup>
-* <b>Fine-Grained Information Extraction</b>: NewsClaim, a novel benchmark for claim extraction with attribute knowledge<sup><sub>[<a href="https://arxiv.org/abs/2112.08544" target="_blank">4</a>]</sub></sup>; RESIN, a state-of-the-art schema-guided cross-document cross-media IE and event tracking system<sup><sub>[<a href="https://aclanthology.org/2021.naacl-demos.16/" target="_blank">5</a>]</sub></sup>
-* <b>Misinformation Detection</b>: reasoning across multimedia and background knowledge<sup><sub>[<a href="http://scholar.google.es/citations?user=eUae2K0AAAAJ" target="_blank">6</a>]</sub></sup>; cross-document misinformation detection <sup><sub>[<a href="https://aclanthology.org/2022.naacl-main.40/" target="_blank">7</a>]</sub></sup>; battling fake and biased news<sup><sub>[<a href="https://dl.acm.org/doi/abs/10.1145/3534678.3542615" target="_blank">8</a>]</sub></sup>
-* <b>Diverse Human-Centered Pro-Social Reasoning Tasks</b>: SmartBook generation for situation reports<sup><sub>[<a href="https://arxiv.org/pdf/2303.14337.pdf" target="_blank">9</a>]</sub></sup>; Decoding the Silent Majority, for social media response forecasting<sup><sub>[<a href="https://arxiv.org/pdf/2310.13297.pdf" target="_blank">10</a>]</sub></sup>; COVID KG Construction and Drug Report Generation<sup><sub>[<a href="https://aclanthology.org/2021.naacl-demos.8/" target="_blank">11</a>]</sub></sup>
-* <b>Intelligent Agent with Tool Learning Capability</b>: CREATOR, LLM tool creation through abstraction reasoning<sup><sub>[<a href="https://arxiv.org/pdf/2305.14318.pdf" target="_blank">12</a>]</sub></sup>; CRAFT, customizing LLMs through specialized toolset creation and retrieval<sup><sub>[<a href="https://arxiv.org/abs/2309.17428" target="_blank">13</a>]</sub></sup>
-* <b>Foundation Model Hallucination Control and Alignment in Honesty/Faithfulness</b>: R-Tuning, teaching LLMs to refuse uncertain questions<sup><sub>[<a href="https://arxiv.org/abs/2311.09677" target="_blank">14</a>]</sub></sup>; MACAROON, enhancing LVLM knowledge boundary awareness via proactive engagement<sup><sub>[<a href="https://arxiv.org/abs/2406.14137" target="_blank">15</a>]</sub></sup>
+I am a <b> M.S. Computer Science student</b> at <a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My expected graduation date is around May,2025. 
+I am interested in <b>building large-scale distributed systems</b> and <b>designing pipelines for deep learning modeling and inference</b>. I also have experiences on <b>developing full-stack application</b> as well as <b> embedded system design</b>.
+
+Here's a handful selection of my recent experience include:
+
+- Created housing price prediction models during capstone intern @<b>Berkshire Hathaway HomeServices</b>. 
+- Developed software for embedding a neural network inference pipeline into an existing medical imaging system for 4x faster MRI scans
+
+I have also contributed to open-source projects such as TensorFlow and Keras.
