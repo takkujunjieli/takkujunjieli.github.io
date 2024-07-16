@@ -12,7 +12,7 @@ I am interested in building <b>large-scale distributed systems</b> and designing
 
 Here's a handful selection of my recent experience:
 
-- Created housing price prediction models during capstone intern @Berkshire Hathaway HomeServices. 
+- Led design of housing price/inventory prediction models during capstone intern as machine learning engineer @Berkshire Hathaway HomeServices. 
 - Developed software for embedding a neural network inference pipeline into an existing medical imaging system for 4x faster MRI scans.
 - Built framework to asynchronously schedule tasks during deep learning data preprocessing with 4x performance improvement in parallel request query.
 
