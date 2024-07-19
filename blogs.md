@@ -11,7 +11,11 @@ comments: false
 <ul>
 {% for post in site.posts %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    {% if post.external_url %}
+      <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
+    {% else %}
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    {% endif %}
     <p>{{ post.excerpt }}</p>
   </li>
 {% endfor %}
