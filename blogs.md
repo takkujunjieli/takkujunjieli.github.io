@@ -6,7 +6,7 @@ tagline: A List of Blogs
 tags: [Blogs]
 comments: false
 ---
-<h2>Recent tech posts that I find helpful</h2>
+<h2>Tech</h2>
 
 <ul>
 {% for post in site.posts %}
