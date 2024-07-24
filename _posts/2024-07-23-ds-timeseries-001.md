@@ -6,7 +6,7 @@ date: 2024-07-23
 tags: [blog]
 description: "Y."
 comments: true
-external_url: "https://facebook.github.io/prophet/docs/quick_start.html"
+# external_url: "https://facebook.github.io/prophet/docs/quick_start.html"
 ---
 
 
