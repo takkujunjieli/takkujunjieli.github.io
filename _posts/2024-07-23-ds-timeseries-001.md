@@ -10,15 +10,15 @@ comments: true
 ---
 
 
-# Getting Started: Predicting Time Series Data with Prophet
+## Getting Started: Predicting Time Series Data with Prophet
 
 **Introduction**
 
-Facebook Prophet is a powerful tool for forecasting time series data. It’s designed to handle missing data, outliers, and seasonal effects with ease. Here, we'll provide a hands-on example of using Prophet and discuss some important caveats.
+Facebook Prophet is a powerful tool for forecasting time series data. It’s designed to handle missing data, outliers, and seasonal effects with ease. Here, we'll provide a hands-on example of using Prophet and discuss some important caveats. Check more on [docs](https://facebook.github.io/prophet/docs/quick_start.html).
 
-## Prophet vs. ARIMA
+### Prophet vs. ARIMA
 
-### 1. Modeling Components
+#### 1. Modeling Components
 **Facebook Prophet:**
 - **Trend:** Can handle non-linear trends and allows for multiple trend changes.
 - **Seasonality:** Automatically includes daily, weekly, and yearly seasonality. Custom seasonality can also be added.
@@ -31,7 +31,7 @@ Facebook Prophet is a powerful tool for forecasting time series data. It’s des
 - **Holiday Effects:** Does not natively include holiday effects; these need to be manually modeled and included.
 - **Outliers and Missing Data:** Sensitive to outliers and missing data; these issues need to be addressed through preprocessing.
 
-### 2. Flexibility and Customization
+#### 2. Flexibility and Customization
 **Facebook Prophet:**
 - High level of automation with limited need for manual tuning.
 - Can add custom seasonalities and handle missing data more gracefully.
@@ -42,7 +42,7 @@ Facebook Prophet is a powerful tool for forecasting time series data. It’s des
 - Can be extended to multivariate forecasting (VARIMA, SARIMA, etc.).
 - Requires manual handling of missing data and outliers.
 
-### 3. Performance and Suitability
+#### 3. Performance and Suitability
 **Facebook Prophet:**
 - Best suited for business data with strong seasonal patterns and the need for handling holidays and special events.
 - May not perform as well as ARIMA in purely statistical forecasting tasks with fewer seasonal effects.
@@ -52,7 +52,7 @@ Facebook Prophet is a powerful tool for forecasting time series data. It’s des
 - Better suited for academic and research applications where model interpretability and statistical rigor are important.
 
 
-## Prophet vs. ARIMA in Python
+### Prophet vs. ARIMA in Python
 
 
 ```python
