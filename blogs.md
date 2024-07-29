@@ -10,7 +10,7 @@ comments: false
 
 <ul>
 {% for post in site.posts %}
-  {% if post.category == "Engineer" %}
+  {% if post.category == "Theories" %}
     <li>
       {% if post.external_url %}
         <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
@@ -27,7 +27,7 @@ comments: false
 
 <ul>
 {% for post in site.posts %}
-  {% if post.category == "Science" %}
+  {% if post.category == "Practices" %}
     <li>
       {% if post.external_url %}
         <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
