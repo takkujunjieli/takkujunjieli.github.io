@@ -6,7 +6,7 @@ tagline: A List of Blogs
 tags: [Blogs]
 comments: false
 ---
-<h2>Engineer</h2>
+<h2>Theories</h2>
 
 <ul>
 {% for post in site.posts %}
@@ -23,7 +23,7 @@ comments: false
 {% endfor %}
 </ul>
 
-<h2>Science</h2>
+<h2>Practices</h2>
 
 <ul>
 {% for post in site.posts %}
