@@ -9,7 +9,9 @@ image:
 
 I am a <b> M.S. Computer Science</b> student @<a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My expected graduation date is between May to Dec, 2025.  
 
+
 I am interested in building <b>large-scale distributed systems</b> and designing <b>pipelines for deep learning modeling and inference</b>. I also have experiences on developing <b>full-stack application</b> as well as <b>embedded system design</b>.   
+
 
 Here's a handful selection of my recent experience:
 
