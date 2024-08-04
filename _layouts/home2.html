@@ -25,6 +25,9 @@
       "{{ site.url }}/images/{{ page.image.feature }}"
     {% endif %}
   alt="{{ page.title }} feature image">
+  {% if page.image.title %}
+  <span class="image-credit">{{ page.image.title }}</a></span>
+  {% endif %}
   {% if page.image.credit %}
     <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
   {% endif %}

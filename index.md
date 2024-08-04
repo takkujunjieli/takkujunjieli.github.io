@@ -5,6 +5,7 @@ description: "Takku's Homepage"
 tags: [Jekyll, theme, responsive, blog, template]
 image:
   feature: trees.jpg
+  title: '回首向来萧瑟处, 也无风雨也无晴 -- <定风波>, 苏轼'
 ---
 
 <p>I am a <b> M.S. Computer Science</b> student @<a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My expected graduation date is between May to Dec, 2025.</p>
