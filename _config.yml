@@ -33,6 +33,10 @@ links:
   - title: Personal
     url: /personal/
 
+collections:
+  projects:
+    output: true
+
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    US/Pacific
 future:      true
