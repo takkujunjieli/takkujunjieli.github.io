@@ -6,6 +6,14 @@ tagline: Takku's Dev/Research
 tags: [projects]
 comments: false
 ---
+<h2>All Projects</h2>
+<ul>
+{% for project in site.projects %}
+  <li>{{ project.title }} - {{ project.category }}</li>
+{% endfor %}
+</ul>
+
+
 <h2>Personal Projects</h2>
 
 <ul>
