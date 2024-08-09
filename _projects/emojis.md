@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 image: images/emo/emoji-meaning.jpg
 title: "Emojis Search"
 date: 2024-08-08
