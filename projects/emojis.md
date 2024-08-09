@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 image: images/emo/emoji-meaning.jpg
 title: "Emojis Search"
 date: 2024
