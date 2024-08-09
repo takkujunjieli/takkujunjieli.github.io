@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: post
 image: images/async/ai_async.jpg
 title: "AsyncTask Scheduler"
 category: Personal
