@@ -5,11 +5,6 @@ title: "Business Job Market Rumors"
 date: 2024-08-08
 category: Personal
 description: "Y."
-published: true
-# labels:
-#   - Full stack
-#   - MERN
-#   - Javascript
 excerpt: "An anonymous board for academic job discussion in business schools."
 ---
 

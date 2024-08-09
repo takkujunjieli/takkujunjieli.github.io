@@ -4,7 +4,6 @@ image: images/async/ai_async.jpg
 title: "AsyncTask Scheduler"
 category: Personal
 date: 2024-08-08
-published: true
 description: "Y."
 # labels:
 #   - Framework
