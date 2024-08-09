@@ -6,7 +6,6 @@ category: Personal
 date: 2024-08-08
 published: true
 description: "Y."
-tags: [Project]
 # labels:
 #   - Framework
 #   - Asynchronous message

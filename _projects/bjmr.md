@@ -5,7 +5,6 @@ title: "Business Job Market Rumors"
 date: 2024-08-08
 category: Personal
 description: "Y."
-tags: [Project]
 published: true
 # labels:
 #   - Full stack
