@@ -1,6 +1,6 @@
 ---
 layout: page
-image: /images/async/ai_async.jpg
+# image: /images/async/ai_async.jpg
 title: "AsyncTask Scheduler"
 category: Personal
 date: 2024-08-08
