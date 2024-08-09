@@ -25,17 +25,20 @@ comments: false
 
 <h2>Work Samples</h2>
 
-<ul>
-{% for project in site._projects %}
+
+{% for project in site.projects %}
   {% if project.category == "Samples" %}
-    <li>
-      {% if project.external_url %}
-        <a href="{{ project.external_url }}" target="_blank">{{ project.title }}</a>
-      {% else %}
-        <a href="{{ project.url }}">{{ project.title }}</a>
+    <div class="project">
+      <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      {% if project.image %}
+        <div class="project-image">
+          <a href="{{ project.url }}">
+            <img src="{{ project.image }}" alt="{{ project.title }}">
+          </a>
+        </div>
       {% endif %}
-      <p>{{ project.excerpt }}</p>
-    </li>
+      <p>{{ project.excerpt | markdownify }}</p>
+      <a href="{{ project.url }}" class="read-more">Read More</a>
+    </div>
   {% endif %}
 {% endfor %}
-</ul>
