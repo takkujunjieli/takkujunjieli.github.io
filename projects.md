@@ -12,7 +12,7 @@ comments: false
 
 <ul>
 {% for post in site.projects %}
-  {% if post.category == "Personal" %}
+  {% if post.category == "Theories" %}
     <li>
       {% if post.external_url %}
         <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
