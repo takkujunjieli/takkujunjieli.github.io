@@ -1,5 +1,5 @@
 ---
-layout: projects
+layout: project
 image: images/bjmr/bjmr_whisper.png
 title: "Business Job Market Rumors"
 date: 2023

@@ -1,57 +1,48 @@
 <!doctype html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<html lang="en">
 <head>
 {% include _head.html %}
 </head>
-
-<body class="page">
-
-{% include _browser-upgrade.html %}
-
+<body>
 {% include _navigation.html %}
 
-{% if page.image.feature %}
-  <div class="image-wrap">
-  <img src=
-    {% if page.image.feature contains 'http://' %}
-      "{{ page.image.feature }}"
-    {% elsif page.image.feature contains 'https://' %}
-      "{{ page.image.feature }}"
-    {% else %}
-      "{{ site.url }}/images/{{ page.image.feature }}"
-    {% endif %}
-  alt="{{ page.title }} feature image">
-  {% if page.image.credit %}
-    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+<h2>Personal Projects</h2>
+
+<ul>
+{% for project in site.projects %}
+  {% if project.category == "Personal" %}
+    <li>
+      {% if project.external_url %}
+        <a href="{{ project.external_url }}" target="_blank">{{ project.title }}</a>
+      {% else %}
+        <a href="{{ project.url }}">{{ project.title }}</a>
+      {% endif %}
+      <p>{{ project.excerpt }}</p>
+    </li>
   {% endif %}
-  </div><!-- /.image-wrap -->
-{% endif %}
+{% endfor %}
+</ul>
 
-<div id="main" role="main">
-  <div class="article-author-side">
-    {% include _author-bio.html %}
-  </div>
-  <article>
-    <div class="article-wrap">
-      {{ content }}
+<h2>Work Samples</h2>
 
 
-</div><!-- /.article-wrap -->
-    {% if site.disqus_shortname and page.comments %}
-      <section id="disqus_thread"></section><!-- /#disqus_thread -->
-    {% endif %}
-  </article>
-</div><!-- /#index -->
-<div class="footer-wrap">
-  <footer>
-    {% include _footer.html %}
-  </footer>
-</div><!-- /.footer-wrap -->
+{% for project in site.projects %}
+  {% if project.category == "Samples" %}
+    <div class="project">
+      <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+      {% if project.image %}
+        <div class="project-image">
+          <a href="{{ project.url }}">
+            <img src="{{ project.image }}" alt="{{ project.title }}">
+          </a>
+        </div>
+      {% endif %}
+      <p>{{ project.excerpt | markdownify }}</p>
+      <a href="{{ project.url }}" class="read-more">Read More</a>
+    </div>
+  {% endif %}
+{% endfor %}
 
-{% include _scripts.html %}
-
+{% include _footer.html %}
 </body>
 </html>
