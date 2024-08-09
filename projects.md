@@ -6,6 +6,8 @@ tagline: Takku's Dev/Research
 tags: [projects]
 comments: false
 ---
+
+
 <h2>Debug Information:</h2>
 <p>Number of projects: {{ site.projects | size }}</p>
 <p>All collections: {{ site.collections | map: 'label' | join: ', ' }}</p>
@@ -25,7 +27,6 @@ comments: false
   <li>{{ variable[0] }}: {{ variable[1] }}</li>
 {% endfor %}
 </ul>
-
 
 <h2>Personal Projects</h2>
 
