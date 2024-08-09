@@ -1,14 +1,15 @@
 ---
-layout: project
+layout: projects
 image: images/async/ai_async.jpg
 title: "AsyncTask Scheduler"
+category: Personal
 date: 2024
 published: true
 labels:
   - Framework
   - Asynchronous message
   - Golang  
-summary: "My Collaborator and I developed “Async4Ai”, a Golang framework of scheduling asynchronous tasks for multi-stage time-consuming deep learning work like data processing and hyperparameter tuning."
+excerpt: "A Golang framework of scheduling asynchronous tasks for multi-stage deep learning tasks."
 ---
 
 - Consisting of arbitrary workers to consume tasks and an agent with HTTP interface to create/query/hold tasks,

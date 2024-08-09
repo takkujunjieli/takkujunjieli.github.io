@@ -1,14 +1,15 @@
 ---
-layout: project
+layout: projects
 image: images/bjmr/bjmr_whisper.png
 title: "Business Job Market Rumors"
 date: 2023
+category: Personal
 published: true
 labels:
   - Full stack
   - MERN
   - Javascript
-summary: "An anonymous board for academic job discussion in business schools."
+excerpt: "An anonymous board for academic job discussion in business schools."
 ---
 
 Business Job Market Rumors is a full-stack JavaScript web application that I created in 2023. 

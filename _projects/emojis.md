@@ -1,14 +1,15 @@
 ---
-layout: project
+layout: projects
 image: images/emo/emoji-meaning.jpg
 title: "Emojis Search"
 date: 2024
+category: Personal
 published: true
 labels:
   - LLM-RAG
   - Distributed system
   - Python
-summary: "A Llama 2-powered search engine finding emojis based on descriptions."
+excerpt: "A Llama 2-powered search engine finding emojis based on descriptions."
 ---
 <img class="img-fluid" src="../img/emo/cotton-header.png">
 
