@@ -9,7 +9,7 @@ comments: false
 <h2>Personal Projects</h2>
 
 <ul>
-{% for project in site._projects %}
+{% for project in site.projects %}
   {% if project.category == "Personal" %}
     <li>
       {% if project.external_url %}
