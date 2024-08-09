@@ -3,12 +3,14 @@ layout: post
 image: images/async/ai_async.jpg
 title: "AsyncTask Scheduler"
 category: Personal
-date: 2024
+date: 2024-08-08
 published: true
-labels:
-  - Framework
-  - Asynchronous message
-  - Golang  
+description: "Y."
+tags: [Project]
+# labels:
+#   - Framework
+#   - Asynchronous message
+#   - Golang  
 excerpt: "A Golang framework of scheduling asynchronous tasks for multi-stage deep learning tasks."
 ---
 

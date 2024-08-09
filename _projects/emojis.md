@@ -2,13 +2,14 @@
 layout: post
 image: images/emo/emoji-meaning.jpg
 title: "Emojis Search"
-date: 2024
+date: 2024-08-08
 category: Personal
 published: true
-labels:
-  - LLM-RAG
-  - Distributed system
-  - Python
+description: "Y."
+# labels:
+#   - LLM-RAG
+#   - Distributed system
+#   - Python
 excerpt: "A Llama 2-powered search engine finding emojis based on descriptions."
 ---
 <img class="img-fluid" src="../img/emo/cotton-header.png">

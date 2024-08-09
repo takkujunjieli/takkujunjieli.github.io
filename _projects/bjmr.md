@@ -1,14 +1,16 @@
 ---
 layout: post
-image: images/bjmr/bjmr_whisper.png
+# image: images/bjmr/bjmr_whisper.png
 title: "Business Job Market Rumors"
-date: 2023
+date: 2024-08-08
 category: Personal
+description: "Y."
+tags: [Project]
 published: true
-labels:
-  - Full stack
-  - MERN
-  - Javascript
+# labels:
+#   - Full stack
+#   - MERN
+#   - Javascript
 excerpt: "An anonymous board for academic job discussion in business schools."
 ---
 
