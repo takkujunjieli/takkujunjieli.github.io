@@ -13,7 +13,7 @@ comments: false
 
 <p><strong>Available Projects:</strong></p>
 <ul>
-  {% for project in site.projects %}
+  {% for project in site.posts %}
     <li>
       <strong>Title:</strong> {{ project.title }}<br>
       <strong>Category:</strong> {{ project.category }}<br>
