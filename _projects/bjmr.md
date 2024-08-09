@@ -5,6 +5,7 @@ title: "Business Job Market Rumors"
 date: 2024-08-08
 category: Personal
 description: "Y."
+order: 3
 excerpt: "An anonymous board for academic job discussion in business schools."
 ---
 
