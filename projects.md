@@ -7,27 +7,6 @@ tags: [projects]
 comments: false
 ---
 
-<h1>{{ page.title }}</h1>
-
-<h2>Debug Information</h2>
-
-<p><strong>Available Projects:</strong></p>
-<ul>
-  {% for project in site.posts %}
-    <li>
-      <strong>Title:</strong> {{ project.title }}<br>
-      <strong>Category:</strong> {{ project.category }}<br>
-      <strong>URL:</strong> {{ project.url }}<br>
-      <strong>External URL:</strong> {{ project.external_url }}<br>
-      <strong>Image:</strong> {{ project.image }}<br>
-      <strong>Excerpt:</strong> {{ project.excerpt }}<br>
-      <strong>Published:</strong> {{ project.published }}<br>
-    </li>
-  {% else %}
-    <li>No projects found.</li>
-  {% endfor %}
-</ul>
-
 
 <h2>Personal Projects</h2>
 
