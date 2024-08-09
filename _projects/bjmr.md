@@ -1,6 +1,6 @@
 ---
 layout: page
-# image: images/bjmr/bjmr_whisper.png
+image: /images/bjmr/bjmr_whisper.png
 title: "Business Job Market Rumors"
 date: 2024-08-08
 category: Personal
