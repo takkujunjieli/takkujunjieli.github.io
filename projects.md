@@ -1,12 +1,8 @@
 ---
 layout: home2
 permalink: /projects/
-title: Projects
 comments: false
 ---
-{% if page.title %}
-  <h1 class="page-title">{{ page.title }}</h1>
-{% endif %}
 
 <h2>Personal Projects</h2>
 
