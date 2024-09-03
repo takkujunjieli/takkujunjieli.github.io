@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Predicting Time Series Data with Prophet"
+title: "[DS] Predicting Time Series Data with Prophet"
 excerpt: "Facebook Prophet is a powerful tool of high level of automation for univariate forecasting."
 date: 2024-07-23
 category: Practices
