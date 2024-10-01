@@ -3,7 +3,7 @@ layout: post
 title: "[DS] Introduction of N-BEATS"
 excerpt: "N-BEATS (Neural Basis Expansion Analysis Time Series) is a deep learning model designed specifically for time series forecasting."
 date: 2024-08-07
-category: Practices
+category: Data Engineering
 tags: [blog]
 description: "Y."
 comments: true
