@@ -10,7 +10,7 @@ image:
 
 <p>I am a <b> M.S. Computer Science</b> student @<a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My expected graduation date is between May to Dec, 2025.</p>
 <br>
-<p>I am interested in building <b>large-scale distributed systems</b> and <b>LLM inference optimization with CUDA</b>. I also have experiences on developing <b>parallel computing framework toolkits</b> as well as <b>full-stack application</b>. </p>
+<p>I am interested in building <b>large-scale distributed systems</b> and <b>LLM inference optimization with CUDA/Triton</b>. I  have experience developing <b>parallel computing framework toolkits</b> as well as <b>full-stack application</b>. </p>
 <br>
 <p>Here's a handful selection of my recent experience:</p>
 - Designed housing price/inventory prediction models during capstone intern as a <b>machine learning engineer</b> @<a href="https://www.bhhs.com/" target="_blank"><b>Berkshire Hathaway HomeServices</b></a>. 
