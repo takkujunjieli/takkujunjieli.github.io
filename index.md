@@ -10,7 +10,7 @@ image:
 
 <p>I am a <b> M.S. Computer Science</b> student @<a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My expected graduation date is between May to Dec, 2025.</p>
 <br>
-<p>I am passionate about building and optimizing <b>machine learning systems at scale</b>. I have hands-on experience developing <b>parallel computing framework toolkits</b> and <b>CUDA/Triton programming for GPU acceleration</b>. I also develop <b>full-stack application</b>. </p>
+<p>I am passionate about building and optimizing <b>machine learning systems at scale</b>. I have hands-on experience developing <b>parallel computing framework toolkits</b>,  <b>automating data pipeline</b> and <b>fine-tuning deep learning models</b>. I've also developed <b>full-stack web application</b>. </p>
 <br>
 <p>Here's a handful selection of my recent experience:</p>
 - Designed housing price/inventory prediction models during capstone intern as a <b>machine learning engineer</b> @<a href="https://www.bhhs.com/" target="_blank"><b>Berkshire Hathaway HomeServices</b></a>. 
@@ -18,3 +18,6 @@ image:
 - Built framework to asynchronously schedule tasks during deep learning data preprocessing with 4x performance improvement in parallel request query.
 
 I have also contributed to open-source projects such as ZenML.
+
+
+<!--CUDA/Triton programming for GPU acceleration-->
