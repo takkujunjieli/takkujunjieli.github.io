@@ -10,7 +10,7 @@ image:
 
 <p>I am a <b> M.S. Computer Science</b> student @<a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My expected graduation date is between May to Dec, 2025.</p>
 <br>
-<p>I am passionate about building and optimizing <b>machine learning systems at scale</b>. I have hands-on experience developing <b>parallel computing framework toolkits</b>,  <b>automating data pipelines</b>, and <b>fine-tuning deep learning models</b>. I've also developed <b>full-stack web applications</b>. </p>
+<p>I am passionate about building and optimizing <b>machine learning systems</b> at scale. I have hands-on experience developing parallel computing framework toolkits,  automating data pipelines, and fine-tuning deep learning models. I've also developed AI-powered full-stack app. </p>
 <br>
 <p>Here's a handful selection of my recent experience:</p>
 - Designed a housing price/inventory prediction model during a <b>machine learning engineer</b> intern @<a href="https://www.bhhs.com/" target="_blank"><b>Berkshire Hathaway HomeServices</b></a>. 
