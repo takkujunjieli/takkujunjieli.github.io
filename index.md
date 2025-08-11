@@ -16,11 +16,10 @@ image:
 
 - Designed a housing inventory prediction model during a <b>machine learning engineer</b> intern @<a href="https://www.bhhs.com/" target="_blank"><b>Berkshire Hathaway HomeServices</b></a>.  
 
-- Explored CPU-Only LLM Acceleration with model distillation.  
+- Built @<a href="https://github.com/takkujunjieli/from_0_llm" target="_blank"><b>a LLM with alignment from scratch</b></a>.  
 
-- Built a framework to asynchronously schedule tasks during deep learning tensor computation with 4x performance improvement in parallel request query.
+- Built @<a href="https://github.com/takkujunjieli/AsyncTaskScheduler" target="_blank"><b>a framework</b></a>  to asynchronously schedule tasks during deep learning tensor computation with 4x performance improvement in parallel request query.
 
-I have also contributed to open-source projects such as ZenML.
-
+I am eager to contribute to open-source projects and volunteer with organizations that promote the common good. Feel free to reach out if you’d like to collaborate or connect.
 
 <!--CUDA/Triton programming for GPU acceleration-->
