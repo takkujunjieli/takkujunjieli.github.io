@@ -8,9 +8,13 @@ image:
   title: '回首向来萧瑟处, 也无风雨也无晴 -- <定风波>, 苏轼'
 ---
 
-<p>I am a <b> M.S. Computer Science</b> student @<a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My expected graduation date is between Aug to Dec, 2025.</p>
+<p>I am a <b> M.S. Computer Science</b> student @<a href="https://www.khoury.northeastern.edu/" target="_blank"><b>Northeastern University</b></a>. My expected graduation date is between Dec, 2025 and May, 2026.</p>
 <br>
-<p>I am passionate about <b>AI system</b>. I've explored LLM inference acceleration, tensor parallelism, and model fine-tune. </p>
+
+<p>
+I’m passionate about machine learning and large language models (LLMs), from building them from scratch to making them run fast in the real world. I’ve worked on training and aligning LLMs, scaling them efficiently across GPUs, and deploying them in applications like game recommendation and flashcard generation. Recently, I’ve also focused on making LLMs faster, cheaper, and more efficient—whether in the cloud with vLLM or on edge devices with quantization.</p>
+
+
 <br>
 <p>Here's a handful selection of my recent experience:</p>  
 
