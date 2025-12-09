@@ -12,18 +12,16 @@ image:
 <br>
 
 <p>
-I’m passionate about machine learning and large language models (LLMs), from building them from scratch to making them run fast in the real world. I’ve worked on training and aligning LLMs, scaling them efficiently across GPUs, and deploying them in applications like game recommendation and flashcard generation. Recently, I’ve also focused on making LLMs faster, cheaper, and more efficient—whether in the cloud with vLLM or on edge devices with quantization.</p>
+I build AI agents and applications with AI feature.</p>
 
 
 <br>
-<p>Here's a handful selection of my recent experience:</p>  
+<p>Recent projects:</p>  
 
-- Designed a housing inventory prediction model during a <b>machine learning engineer</b> intern @<a href="https://www.bhhs.com/" target="_blank"><b>Berkshire Hathaway HomeServices</b></a>.  
+- <a href="https://github.com/takkujunjieli/from_0_llm" target="_blank"><b>LLM with alignment from scratch</b></a>.  
 
-- Built @<a href="https://github.com/takkujunjieli/from_0_llm" target="_blank"><b>a LLM with alignment from scratch</b></a>.  
+- <a href="https://github.com/takkujunjieli/AsyncTaskScheduler" target="_blank"><b>Async task scheduler</b></a> for deep learning with 4x speedup in parallel queries.
 
-- Built @<a href="https://github.com/takkujunjieli/AsyncTaskScheduler" target="_blank"><b>a framework</b></a>  to asynchronously schedule tasks during deep learning tensor computation with 4x performance improvement in parallel request query.
-
-I am eager to contribute to open-source projects and volunteer with organizations that promote the common good. Feel free to reach out if you’d like to collaborate or connect.
+I am eager to contribute to open-source projects and volunteer with organizations that promote the common good. Feel free to reach out if you'd like to collaborate or connect.
 
 <!--CUDA/Triton programming for GPU acceleration-->
