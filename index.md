@@ -8,8 +8,14 @@ image:
   title: "回首向来萧瑟处, 也无风雨也无晴 -- <定风波>, 苏轼"
 ---
 
-<p>I am working at <b>Cognitiv</b> as a Machine learning engineer. Besides, I co-founded @<a href="noetic-contemplation-lab.vercel.app" target="_blank"><b>noetic contemplation lab</b>, dedicating to AI native reading and creation (coming soon). I received M.S in Computer Science from <b>Northeastern University</b></a> on Dec, 2025.</p>
-<br>
+<p>
+I am working at <b>Cognitiv</b> as a Machine Learning Engineer. 
+Besides, I co-founded 
+<a href="https://noetic-contemplation-lab.vercel.app" target="_blank">
+<b>Noetic Contemplation Lab</b>
+</a>, dedicated to AI-native reading and creation (coming soon). 
+I received an M.S. in Computer Science from <b>Northeastern University</b> in Dec 2025.
+</p>
 
 <br>
 <p>Recent projects:</p>
