@@ -8,22 +8,16 @@ image:
   title: "回首向来萧瑟处, 也无风雨也无晴 -- <定风波>, 苏轼"
 ---
 
-<div class="experience-cards">
-  <section class="experience-card">
-    <p class="experience-label">Machine Learning</p>
-    <h2>Cognitiv</h2>
-    <p>I am a <b>Machine Learning Engineer</b>, working on systems that make modern machine learning useful, reliable, and scalable.</p>
-    <p class="experience-tags">Agentic AI · Optimization · ML infrastructure</p>
-  </section>
-
-  <section class="experience-card">
-    <p class="experience-label">Co-founder</p>
-    <h2><a href="https://noetic-contemplation-lab.vercel.app" target="_blank" rel="noopener">Noetic Contemplation Lab ↗</a></h2>
-    <p>Noetic is an experiment in AI-native reading and creation: a space for engaging deeply with ideas, connecting them across contexts, and turning reflection into new work.</p>
-    <p class="experience-tags">Reading · Reflection · Creation</p>
-  </section>
-</div>
-
-<p>
-I received an M.S. in Computer Science from <b>Northeastern University</b> in December 2025.
-</p>
+<ul class="experience-list">
+  <li>
+    <strong>Cognitiv — Machine Learning Engineer.</strong><br>
+    I work on systems that make modern machine learning useful, reliable, and scalable, with interests in agentic AI, optimization, and ML infrastructure.
+  </li>
+  <li>
+    <strong><a href="https://noetic-contemplation-lab.vercel.app" target="_blank" rel="noopener">Noetic Contemplation Lab ↗</a> — Co-founder.</strong><br>
+    Noetic is an experiment in AI-native reading and creation: a space for engaging deeply with ideas, connecting them across contexts, and turning reflection into new work.
+  </li>
+  <li>
+    <strong>Northeastern University — M.S. in Computer Science, December 2025.</strong>
+  </li>
+</ul>

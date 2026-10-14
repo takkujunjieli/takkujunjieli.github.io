@@ -1,0 +1,14 @@
+.experience-list {
+  margin: 1.5rem 0 0;
+  padding-left: 1.35rem;
+}
+
+.experience-list li {
+  line-height: 1.7;
+  margin-bottom: 1.55rem;
+  padding-left: .25rem;
+}
+
+.experience-list strong { color: #343434; }
+
+.experience-list a { color: #2aa9df; }
