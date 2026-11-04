@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420">
+  <defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#c5cabb"/></pattern></defs>
+  <rect width="560" height="420" fill="#e8ece2"/>
+  <rect x="35" y="35" width="490" height="350" fill="url(#grid)" stroke="#b6c1ab"/>
+  <g fill="none" stroke="#6e8062" stroke-width="1.5">
+    <rect x="230" y="110" width="100" height="170" rx="50"/>
+    <rect x="248" y="129" width="64" height="132" rx="32"/>
+    <path d="M115 195h133m64 0h133" stroke-dasharray="4 5"/>
+    <circle cx="115" cy="195" r="22" fill="#e8ece2"/>
+    <rect x="418" y="173" width="44" height="44" fill="#e8ece2"/>
+    <path d="m272 195 6 6 11-13" stroke="#354e31" stroke-width="2"/>
+    <path d="M35 320h490" stroke="#b6c1ab"/>
+  </g>
+  <g fill="#53654b" font-family="monospace" font-size="11" text-anchor="middle" letter-spacing="1"><text x="115" y="242">AGENT</text><text x="440" y="242">RESOURCE</text></g>
+  <text x="59" y="78" font-family="monospace" font-size="23" letter-spacing="-.5" fill="#354e31">veilgate</text>
+  <text x="59" y="357" font-family="monospace" font-size="12" letter-spacing="1.5" fill="#53654b">CAPABILITY / BOUNDARY / PRIVACY</text>
+</svg>

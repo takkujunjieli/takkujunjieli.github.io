@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }} — Agentic AI Systems</title>
+    <meta name="description" content="{{ page.description | default: site.description | escape }}">
+    <meta name="theme-color" content="#f6f5f0">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title | escape }} — Agentic AI Systems">
+    <meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
+    {% if page.image.feature %}
+      {% assign banner_url = page.image.feature | prepend: '/images/' | relative_url %}
+      <meta property="og:image" content="{{ banner_url | absolute_url }}">
+      <meta property="og:image:alt" content="{{ page.image.alt | escape }}">
+    {% endif %}
+    <link rel="icon" type="image/svg+xml" href="{{ '/images/monogram.svg' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/personal.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="Takku Li home">
+          <svg class="site-mark" width="27" height="27" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+            <path d="M1 9V1h8M19 1h8v8M27 19v8h-8M9 27H1v-8M9 14h10M14 9v10" stroke="currentColor" stroke-width="1.5"/>
+          </svg>
+          <span>Takku Li</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="mailto:{{ site.owner.email | escape }}">Contact <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+      <main id="main">
+        {% if page.image.feature %}
+        <figure class="hero-image">
+          <img src="{{ banner_url }}" alt="{{ page.image.alt | escape }}" width="1440" height="400" fetchpriority="high" style="object-position: {{ page.image.position | default: 'center' | escape }};">
+          {% if page.image.caption %}<figcaption>{{ page.image.caption | escape }}</figcaption>{% endif %}
+        </figure>
+        {% endif %}
+
+        <section class="about-section" id="about" aria-labelledby="intro-heading">
+          <div class="section-label"><span class="section-number">01</span> About</div>
+          <div class="section-body">
+            <p class="eyebrow">Agentic AI Systems / Security &amp; Privacy</p>
+            <h1 id="intro-heading">Hi, I'm Takku.</h1>
+            <p class="intro-statement">Building agents.<br>Thinking about trust.</p>
+            <div class="biography">{{ content }}</div>
+            <div class="social-links" aria-label="Find me online">
+              <a href="https://github.com/{{ site.owner.github }}">GitHub <span aria-hidden="true">↗</span></a>
+              <a href="https://www.linkedin.com/in/{{ site.owner.linkedin }}/">LinkedIn <span aria-hidden="true">↗</span></a>
+              <a href="mailto:{{ site.owner.email | escape }}">Email <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </section>
+
+        <section class="projects-section" id="projects" aria-labelledby="projects-heading">
+          <div class="section-label"><span class="section-number">02</span> Projects</div>
+          <div class="section-body">
+            <div class="section-heading">
+              <h2 id="projects-heading">Selected projects</h2>
+              {% assign selected_projects = site.data.projects | where: 'archived', false %}
+              {% assign earlier_projects = site.data.projects | where: 'archived', true %}
+              <span class="project-count">{{ selected_projects | size }} projects</span>
+            </div>
+            <div class="project-list">
+              {% for project in selected_projects %}
+                {% include project-entry.html %}
+              {% endfor %}
+            </div>
+            {% if earlier_projects.size > 0 %}
+            <div class="earlier-projects">
+              <p class="eyebrow">Earlier work</p>
+              {% for project in earlier_projects %}
+                {% include project-entry.html %}
+              {% endfor %}
+            </div>
+            {% endif %}
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>© {{ site.time | date: '%Y' }} Takku Li</span>
+        <a href="mailto:{{ site.owner.email | escape }}">Let's get in touch <span aria-hidden="true">↗</span></a>
+        <a href="#main">Back to top <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+  </body>
+</html>

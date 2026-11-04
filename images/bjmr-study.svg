@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420">
+  <defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#c8cbbf"/></pattern></defs>
+  <rect width="560" height="420" fill="#e8e9df"/>
+  <rect x="35" y="35" width="490" height="350" fill="url(#grid)" stroke="#b4bcaa"/>
+  <g fill="none" stroke="#c2c8b7" stroke-dasharray="3 5">
+    <ellipse cx="149" cy="199" rx="70" ry="79"/>
+    <ellipse cx="294" cy="156" rx="64" ry="57"/>
+    <ellipse cx="404" cy="225" rx="68" ry="66"/>
+  </g>
+  <g fill="none" stroke="#a0ad92" stroke-width="1.5">
+    <path d="m108 169 66-31 18 63-84-32 17 79 67-47-24 60-43-13m49-110-49 110"/>
+    <path d="m261 126 56 8 14 49-70-57 19 61 51-4m-14-49-37 53"/>
+    <path d="m382 185 61 11-8 65-53-76-18 61 71 15m8-65-79 50"/>
+  </g>
+  <g fill="none" stroke="#627756" stroke-width="1.8">
+    <path d="m192 201 88-14 84 59m-33-63 51 2m-208-47 87-12"/>
+  </g>
+  <g fill="#e8e9df" stroke="#78886b" stroke-width="1.5">
+    <circle cx="108" cy="169" r="6"/><circle cx="174" cy="138" r="7"/>
+    <circle cx="125" cy="248" r="6"/><circle cx="168" cy="261" r="5"/>
+    <circle cx="261" cy="126" r="6"/><circle cx="317" cy="134" r="5"/>
+    <circle cx="331" cy="183" r="6"/><circle cx="382" cy="185" r="6"/>
+    <circle cx="443" cy="196" r="5"/><circle cx="435" cy="261" r="6"/>
+  </g>
+  <g fill="#627756" stroke="#e8e9df" stroke-width="3">
+    <circle cx="192" cy="201" r="10"/><circle cx="280" cy="187" r="10"/><circle cx="364" cy="246" r="10"/>
+  </g>
+  <path d="M35 320h490" stroke="#b4bcaa"/>
+  <text x="59" y="78" font-family="monospace" font-size="23" letter-spacing="-.5" fill="#42513a">bjmr</text>
+  <text x="59" y="357" font-family="monospace" font-size="12" letter-spacing="1.5" fill="#5a6651">PEOPLE / CONNECTIONS / COMMUNITY</text>
+</svg>

@@ -1,23 +1,19 @@
 ---
-layout: home2
+layout: personal
 title: Takku Li
-description: "Machine Learning Engineer and co-founder of Noetic Contemplation Lab."
-tags: [machine learning, agentic AI, Noetic Contemplation Lab]
+description: "Takku Li — building agentic AI systems, with a focus on security and privacy."
+tags: [agentic AI systems, security, privacy, machine learning]
 image:
   feature: trees.jpg
-  title: "回首向来萧瑟处, 也无风雨也无晴 -- <定风波>, 苏轼"
+  alt: "Trees in a quiet valley, with mist over the hills."
+  caption: "回首向来萧瑟处，也无风雨也无晴。 — 苏轼"
+  position: "center 52%"
 ---
 
-<ul class="experience-list">
-  <li>
-    <strong>Cognitiv — Machine Learning Engineer.</strong><br>
-    I work on systems that make modern machine learning useful, reliable, and scalable, with interests in agentic AI, optimization, and ML infrastructure.
-  </li>
-  <li>
-    <strong><a href="https://noetic-contemplation-lab.vercel.app" target="_blank" rel="noopener">Noetic Contemplation Lab ↗</a> — Co-founder.</strong><br>
-    Noetic is an experiment in AI-native reading and creation: a space for engaging deeply with ideas, connecting them across contexts, and turning reflection into new work.
-  </li>
-  <li>
-    <strong>Northeastern University — M.S. in Computer Science, December 2025.</strong>
-  </li>
-</ul>
+I'm a **Founding Engineer at Noetic**, an agent startup exploring AI-native reading and creation.
+
+My focus is on **agentic AI systems**, especially the security and privacy challenges that arise when agents interact with tools, data, and people.
+
+<h2 class="experience-heading">Experience</h2>
+
+Previously, I worked as a **Machine Learning Engineer at Cognitiv**, through September 2026. I earned my **M.S. in Computer Science at Northeastern University** in December 2025.

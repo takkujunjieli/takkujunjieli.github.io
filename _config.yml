@@ -1,5 +1,5 @@
 title:            Takku Li
-description:      Machine Learning Engineer and co-founder of Noetic Contemplation Lab.
+description:      Building agentic AI systems, with a focus on security and privacy.
 # Your site's domain goes here. Leave localhost server or blank when working locally.
 url:              https://takkujunjieli.github.io
 disqus_shortname: takkujl
@@ -8,12 +8,11 @@ disqus_shortname: takkujl
 owner:
   name:           Takku Li 
   avatar:         avatar.svg
-  bio:            Machine Learning Engineer at Cognitiv and co-founder of Noetic Contemplation Lab. Interested in agentic AI, ML systems, and the future of reading and creation.
+  bio:            Founding Engineer at Noetic. Building agentic AI systems, with a focus on security and privacy. Previously a Machine Learning Engineer at Cognitiv, through September 2026.
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   email: alvinbluy@gmail.com
   linkedin: junjietakkuli
   github: takkujunjieli
-  twitter: alvinli37816599
 # Analytics and webmaster tools stuff goes here
 # google_analytics: UA-52736040-1
 # google_verify:

@@ -1,0 +1,47 @@
+- title: VeilGate
+  subtitle: Privacy-Preserving AI Gateway
+  category: Security & privacy
+  description: >-
+    A privacy-preserving resource access gateway for AI agents.
+    Exploring the boundary between agent capabilities and access to private resources.
+  url: https://github.com/takkujunjieli/veilgate
+  link_label: Repository (private)
+  image: /images/veilgate-study.svg
+  image_alt: "VeilGate concept: an agent accesses resources through a privacy boundary."
+  archived: false
+  tags:
+    - Agent systems
+    - Privacy
+
+- title: Market Intelligence & Decision System
+  category: Decision systems
+  description: >-
+    A research workspace bringing together market data, options analytics, news,
+    and community signals. Connects information gathering with scenario analysis
+    and risk-aware decision workflows.
+  url: https://github.com/takkujunjieli/noetic-dashboard
+  link_label: View source
+  demo_url: https://takkujunjieli.github.io/noetic-dashboard/
+  image: /images/market-study.svg
+  image_alt: "A conceptual diagram of market signals converging into research and decisions."
+  archived: false
+  tags:
+    - Market intelligence
+    - Decision support
+
+- title: Business Job Market Rumors
+  subtitle: BJMR
+  category: Earlier project
+  description: >-
+    An anonymous discussion platform for the business-school academic job market.
+    Combines NLP-assisted content moderation with context-based authentication
+    and device management.
+  url: https://github.com/takkujunjieli/BJMR
+  link_label: View source
+  image: /images/bjmr-study.svg
+  image_alt: "BJMR social graph: connected people form three communities linked by shared conversations."
+  archived: true
+  tags:
+    - Full-stack
+    - NLP moderation
+    - Authentication
