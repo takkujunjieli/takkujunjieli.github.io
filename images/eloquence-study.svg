@@ -6,9 +6,9 @@
     <path d="M294 167h165v86h-22v23l-29-23H294z"/>
     <path d="M168 252c30 40 88 46 127 17m-7-1 8 1-3 8M391 144c-28-32-70-41-105-21m8 2-9-2 3-8" stroke="#b0b49e"/>
   </g>
-  <g fill="none" stroke="#5f7054" stroke-width="2" stroke-linecap="round">
-    <path d="M131 165v8m12-19v30m12-42v53m12-45v38m12-26v14m12-24v34m12-43v51m12-41v29m12-20v12m12-16v20m12-13v6"/>
-    <path d="M319 207v8m12-19v30m12-37v44m12-30v16m12-23v31m12-42v52m12-39v26m12-20v14m12-24v33m12-21v9"/>
+  <g fill="#5f7054" font-family="monospace" text-anchor="middle">
+    <text x="190" y="177" font-size="23">Eloquence</text>
+    <text x="376.5" y="216" font-size="17">EL-uh-kwuhns</text>
   </g>
   <text x="59" y="78" font-family="monospace" font-size="23" fill="#4f5647">eloquence</text>
   <text x="59" y="357" font-family="monospace" font-size="12" letter-spacing="1.5" fill="#626454">SPEAK / REFLECT / IMPROVE</text>
