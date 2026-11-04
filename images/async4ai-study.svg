@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420">
+  <defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#c5cabb"/></pattern></defs>
+  <rect width="560" height="420" fill="#e8ece2"/>
+  <rect x="35" y="35" width="490" height="350" fill="url(#grid)" stroke="#b6c1ab"/>
+  <g fill="none" stroke="#9cab8d" stroke-width="1.5">
+    <path d="M137 200h55v-64h65m-65 64h65m-65 0v64h65m46-128h58v64h62m-120 0h58m-58 64h58v-64"/>
+    <path d="m249 131 8 5-8 5m0 54 8 5-8 5m0 54 8 5-8 5m158-74 8 5-8 5" stroke="#627756"/>
+  </g>
+  <g fill="#e8ece2" stroke="#6e8062" stroke-width="1.5">
+    <circle cx="115" cy="200" r="22"/><circle cx="445" cy="200" r="22"/>
+    <rect x="257" y="118" width="46" height="36"/><rect x="257" y="182" width="46" height="36"/><rect x="257" y="246" width="46" height="36"/>
+  </g>
+  <g fill="none" stroke="#627756" stroke-width="1.5"><path d="m273 136 5 5 9-10m-14 69 5 5 9-10"/><circle cx="280" cy="264" r="7"/><path d="M280 259v5l4 2m-173-70 8 4-8 4zM439 194h12v12h-12z"/></g>
+  <path d="M35 320h490" stroke="#b6c1ab"/>
+  <text x="59" y="78" font-family="monospace" font-size="23" fill="#354e31">async4ai</text>
+  <text x="59" y="357" font-family="monospace" font-size="12" letter-spacing="1.5" fill="#53654b">QUEUE / EXECUTE / COORDINATE</text>
+</svg>

@@ -10,7 +10,7 @@ A Jekyll / GitHub Pages homepage for my work on agentic AI systems, with a focus
 - **Contact links and site description:** edit `_config.yml`.
 - **Appearance:** edit `assets/css/personal.css`; the homepage template is `_layouts/personal.html`.
 
-The VeilGate, Market Intelligence, and BJMR images are original conceptual SVG illustrations, not product screenshots or measured results. BJMR uses a social graph of connected communities. Replace their paths in the project data if you want to use screenshots. VeilGate is currently a private repository, which its link label makes explicit. Noetic is presented as a business in the introduction, without a link or a separate project entry.
+Project images are original conceptual SVG illustrations, not product screenshots or measured results. BJMR uses a social graph, Eloquence uses conversation waveforms, the game recommendation system uses a retrieval diagram, and Async4Ai uses a task graph. Replace their paths in the project data if you want to use screenshots. VeilGate is currently a private repository, which its link label makes explicit. Noetic is presented as a business in the introduction, without a link or a separate project entry. Earlier projects share one “Earlier work” heading; their category can be omitted to avoid repeated labels.
 
 ## Local preview
 

@@ -31,7 +31,6 @@
 
 - title: Business Job Market Rumors
   subtitle: BJMR
-  category: Earlier project
   description: >-
     An anonymous discussion platform for the business-school academic job market.
     Combines NLP-assisted content moderation with context-based authentication
@@ -45,3 +44,48 @@
     - Full-stack
     - NLP moderation
     - Authentication
+
+- title: Eloquence
+  description: >-
+    A mobile-first AI speaking coach for interviews, negotiations, and difficult
+    conversations. Combines speech input and coach personas with
+    post-conversation scoring and actionable feedback.
+  url: https://github.com/takkujunjieli/eloquence
+  link_label: View source
+  image: /images/eloquence-study.svg
+  image_alt: "Eloquence concept: two speech waveforms in a conversation with a feedback loop."
+  archived: true
+  tags:
+    - Conversational AI
+    - Speech
+    - Coaching
+
+- title: RAG-Based Game Recommendation System
+  description: >-
+    A natural-language game recommendation API grounded in Steam reviews.
+    Uses LangChain and FAISS to retrieve relevant reviews and generate
+    recommendations with supporting evidence.
+  url: https://github.com/takkujunjieli/game_recomm
+  link_label: View source
+  image: /images/game-recomm-study.svg
+  image_alt: "Game recommendation concept: a query retrieves review documents to inform a recommendation."
+  archived: true
+  tags:
+    - RAG
+    - Vector search
+    - Recommendations
+
+- title: Async4Ai
+  description: >-
+    A lightweight Go framework for asynchronous scheduling of multi-stage
+    deep learning tasks. Supports continuous data-processing workflows,
+    with a web API for updating and querying tasks.
+  url: https://github.com/takkujunjieli/AsyncTaskScheduler
+  link_label: View source
+  image: /images/async4ai-study.svg
+  image_alt: "Async4Ai task graph: a workflow branches into parallel tasks and joins at the next stage."
+  archived: true
+  tags:
+    - Go
+    - Async scheduling
+    - ML infrastructure

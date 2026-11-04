@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420">
+  <defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#c8cbbf"/></pattern></defs>
+  <rect width="560" height="420" fill="#e8e9df"/>
+  <rect x="35" y="35" width="490" height="350" fill="url(#grid)" stroke="#b4bcaa"/>
+  <g fill="none" stroke="#7d8c6e" stroke-width="1.5">
+    <circle cx="111" cy="194" r="25"/><path d="m130 213 16 16m-12-35h92m-8-5 8 5-8 5m90-5h82m-8-5 8 5-8 5"/>
+    <path d="M244 129h72v99h-72z" fill="#e8e9df" stroke="#a4af98"/>
+    <path d="M236 137h72v99h-72z" fill="#e8e9df" stroke="#a4af98"/>
+    <path d="M228 145h72v99h-72z" fill="#e8e9df"/>
+    <path d="M242 163h44m-44 13h44m-44 13h34m-34 13h44m-44 13h25" stroke="#a4af98"/>
+    <path d="M415 168h41c10 0 17 8 20 18l9 38c3 14-9 19-17 10l-12-15h-41l-12 15c-8 9-20 4-17-10l9-38c3-10 10-18 20-18Z" fill="#e8e9df"/>
+    <path d="M412 181v20m-10-10h20"/><circle cx="458" cy="185" r="3"/><circle cx="467" cy="197" r="3"/>
+    <path d="M35 320h490" stroke="#b4bcaa"/>
+  </g>
+  <text x="59" y="78" font-family="monospace" font-size="23" fill="#42513a">game recommendations</text>
+  <text x="59" y="357" font-family="monospace" font-size="12" letter-spacing="1.5" fill="#5a6651">QUERY / RETRIEVE / RECOMMEND</text>
+</svg>

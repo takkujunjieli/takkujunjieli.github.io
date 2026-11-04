@@ -5,7 +5,7 @@
   </a>
   {% endif %}
   <div class="project-copy">
-    <p class="project-meta">{{ project.category | escape }}{% if project.role %} <span aria-hidden="true">/</span> {{ project.role | escape }}{% endif %}</p>
+    {% if project.category %}<p class="project-meta">{{ project.category | escape }}{% if project.role %} <span aria-hidden="true">/</span> {{ project.role | escape }}{% endif %}</p>{% endif %}
     <h3><a href="{{ project.url | escape }}">{{ project.title | escape }}</a></h3>
     {% if project.subtitle %}<p class="project-subtitle">{{ project.subtitle | escape }}</p>{% endif %}
     <p class="project-description">{{ project.description | escape }}</p>
