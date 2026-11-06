@@ -10,7 +10,7 @@ image:
   position: "center 52%"
 ---
 
-I'm a **Founding Engineer at Noetic**, an agent startup exploring AI-native reading and creation.
+I'm a **Founding Engineer at [Noetic](https://noetic-contemplation-lab.vercel.app/)**, building privacy-focused AI tools for reading and reflection.
 
 My focus is on **agentic AI systems**, especially the security and privacy challenges that arise when agents interact with tools, data, and people.
 
