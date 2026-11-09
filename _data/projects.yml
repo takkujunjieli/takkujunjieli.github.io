@@ -29,22 +29,6 @@
     - Market intelligence
     - Decision support
 
-- title: Business Job Market Rumors
-  subtitle: BJMR
-  description: >-
-    An anonymous discussion platform for the business-school academic job market.
-    Combines NLP-assisted content moderation with context-based authentication
-    and device management.
-  url: https://github.com/takkujunjieli/BJMR
-  link_label: View source
-  image: /images/bjmr-study.svg
-  image_alt: "BJMR social graph: connected people form three communities linked by shared conversations."
-  archived: true
-  tags:
-    - Full-stack
-    - NLP moderation
-    - Authentication
-
 - title: Eloquence
   description: >-
     A mobile-first AI speaking coach for interviews, negotiations, and difficult
@@ -89,3 +73,19 @@
     - Go
     - Async scheduling
     - ML infrastructure
+
+- title: Business Job Market Rumors
+  subtitle: BJMR
+  description: >-
+    An anonymous discussion platform for the business-school academic job market.
+    Combines NLP-assisted content moderation with context-based authentication
+    and device management.
+  url: https://github.com/takkujunjieli/BJMR
+  link_label: View source
+  image: /images/bjmr-study.svg
+  image_alt: "BJMR social graph: connected people form three communities linked by shared conversations."
+  archived: true
+  tags:
+    - Full-stack
+    - NLP moderation
+    - Authentication
